@@ -17,13 +17,13 @@
 @media screen and (max-width: 768px) {
     /* стили для планшета */
   .lead {
-    margin: 48px -24px 88px -24px;
+    margin: 48px auto 88px auto;
   }
 }
 
 @media screen and (max-width: 320px) {
     /* стили для малого смартфона */
   .lead {
-    margin: 48px -16px 64px -16px;
+    margin: 48px auto 64px auto;
   }
 }

@@ -3,3 +3,10 @@
   font-size: 3.375em;
   line-height: 107%;
 }
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+  .intro__title {
+    font-size: 32px;
+  }
+}

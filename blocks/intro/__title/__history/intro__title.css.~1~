@@ -1,0 +1,5 @@
+.intro__title {
+  font-weight: 900;
+  font-size: 3.375em;
+  line-height: 107%;
+}

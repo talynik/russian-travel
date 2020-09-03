@@ -1,0 +1,18 @@
+.lead__image {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+  .lead__image {
+    margin: 0px -24px 0px -24px;
+  } 
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+  .content {
+    max-width: calc(320px - 16px * 2);
+    padding: 0px 16px 0px 16px;
+  } 
+}

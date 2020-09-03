@@ -9,21 +9,15 @@
 /* Основной код для разрешения 1024px */
 @media screen and (min-width: 1280px) {
     /* стили для больших настольных компьютеров и ноутбуков */
-  .lead {
-    margin: 56px auto 92px auto;
-  }
+  
 }
 
 @media screen and (max-width: 768px) {
     /* стили для планшета */
-  .lead {
-    margin: 48px -24px 88px -24px;
-  }
+ 
 }
 
 @media screen and (max-width: 320px) {
     /* стили для малого смартфона */
-  .lead {
-    margin: 48px -16px 64px -16px;
-  }
+
 }
