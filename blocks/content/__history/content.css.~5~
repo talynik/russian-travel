@@ -1,31 +1,35 @@
-.cover {
+.content {
   display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
-  margin: 0px -48px 0px -48px;
-  padding: 0px 0px 0px 0px;
+  max-width: calc(1024px - 48px * 2);
+  margin: 0px auto 0px auto;
+  padding: 0px 48px 0px 48px;
   background: #2A2C2F;
 }
 
 /* Основной код для разрешения 1024px */
 @media screen and (min-width: 1280px) {
     /* стили для больших настольных компьютеров и ноутбуков */
-  .cover {
-    margin: 0px -100px 0px -100px;
+  .content {
+    max-width: calc(1280px - 148px * 2);
+    padding: 0px 148px 0px 148px;
   } 
 }
 
 @media screen and (max-width: 768px) {
     /* стили для планшета */
-  .cover {
-    margin: 0px -24px 0px -24px;
+  .content {
+    max-width: calc(768px - 24px * 2);
+    padding: 0px 24px 0px 24px;
   }  
 }
 
 @media screen and (max-width: 320px) {
     /* стили для малого смартфона */
-  .cover {
-    margin: 0px -16px 0px -16px;
+  .content {
+    min-width: calc(320px - 16px * 2);
+    padding: 0px 16px 0px 16px;
   } 
 }

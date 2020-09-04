@@ -5,10 +5,3 @@
   line-height: 163%;
   margin: 0px 0px 24px 0px;
 }
-
-@media screen and (max-width: 768px) {
-    /* стили для планшета */
-  .place__paragraph {
-    font-size: 16px;
-  }  
-}

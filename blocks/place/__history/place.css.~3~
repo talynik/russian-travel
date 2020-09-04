@@ -22,14 +22,13 @@
     grid-template-columns: 340px 352px;
     grid-gap: 48px 28px;
     padding: 0px 0px 72px 0px;
-  } 
+} 
 }
 
 @media screen and (max-width: 320px) {
     /* стили для малого смартфона */
-  .place {
-    grid-template-columns: 320px;
-    gap: 32px;
-    padding: 0px 0px 48px 0px;
-  }
+  .content {
+    max-width: calc(320px - 16px * 2);
+    padding: 0px 16px 0px 16px;
+  } 
 }

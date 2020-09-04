@@ -5,3 +5,18 @@
   line-height: 106%;
   margin: 0px 0px 0px 0px;
 }
+
+/* Основной код для разрешения 1024px */
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+  .place__title {
+    font-size: 42px;
+  }  
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для малого смартфона */
+  .place__title {
+    font-size: 32px;
+  }
+}

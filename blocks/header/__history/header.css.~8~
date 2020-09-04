@@ -1,31 +1,30 @@
-.cover {
+.header {
   display: flex;
-  position: relative;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  margin: 0px -48px 0px -48px;
-  padding: 0px 0px 0px 0px;
+  width: 1024px;
+  margin: 0px auto 0px auto;
   background: #2A2C2F;
 }
 
 /* Основной код для разрешения 1024px */
 @media screen and (min-width: 1280px) {
     /* стили для больших настольных компьютеров и ноутбуков */
-  .cover {
-    margin: 0px -100px 0px -100px;
+  .header {
+    width: 1280px;
   } 
 }
 
 @media screen and (max-width: 768px) {
     /* стили для планшета */
-  .cover {
-    margin: 0px -24px 0px -24px;
+  .header {
+    width: 768px;
   }  
 }
 
 @media screen and (max-width: 320px) {
     /* стили для малого смартфона */
-  .cover {
-    margin: 0px -16px 0px -16px;
+  .header {
+    min-width: 320px;
   } 
 }

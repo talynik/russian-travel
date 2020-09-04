@@ -14,7 +14,7 @@
     /* стили для малого смартфона */
   .cover__subtitle {
     width: 288px;
-    font-size: 14px;
+    font-size: 14px
     margin: 16px 0px 0px 0px;
   } 
 }
