@@ -1,7 +1,7 @@
 .intro {
   flex-direction: column;
   padding: 0px 0px 0px 16px;
-  width: 100%;
+  max-width: 288px;
 }
 
 /* Основной код для разрешения 320px */
