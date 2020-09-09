@@ -1,3 +1,25 @@
 .lead__image {
-  width: 100%;
+  max-width: 320px;
+}
+
+/* Основной код для разрешения 320px */
+@media screen and (min-width: 768px) {
+    /* стили для планшета */
+  .lead__image {
+    max-width: 768px;
+  }  
+}
+
+@media screen and (min-width: 1024px) {
+    /* стили для малого смартфона */
+  .lead__image {
+    max-width: 928px;
+  } 
+}
+
+@media screen and (min-width: 1280px) {
+    /* стили для больших настольных компьютеров и ноутбуков */
+  .lead__image {
+    max-width: 984px;
+  } 
 }

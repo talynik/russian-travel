@@ -3,12 +3,23 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  margin: 0px -48px 0px -48px;
-  padding: 0px 0px 0px 0px;
-  background: #2A2C2F;
+  margin: 0px -16px 0px -16px;
 }
 
-/* Основной код для разрешения 1024px */
+/* Основной код для разрешения 320px */
+@media screen and (min-width: 768px) {
+    /* стили для планшета */
+  .cover {
+    margin: 0px -24px 0px -24px;
+  }  
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    margin: 0px -48px 0px -48px;
+  } 
+}
+
 @media screen and (min-width: 1280px) {
     /* стили для больших настольных компьютеров и ноутбуков */
   .cover {
@@ -16,16 +27,3 @@
   } 
 }
 
-@media screen and (max-width: 768px) {
-    /* стили для планшета */
-  .cover {
-    margin: 0px -24px 0px -24px;
-  }  
-}
-
-@media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
-  .cover {
-    margin: 0px -16px 0px -16px;
-  } 
-}

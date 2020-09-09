@@ -1,12 +1,12 @@
 .intro__title {
   font-weight: 900;
-  font-size: 3.375em;
+  font-size: 32px;
   line-height: 107%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 768px) {
     /* стили для малого смартфона */
   .intro__title {
-    font-size: 32px;
+    font-size: 54px;
   }
 }

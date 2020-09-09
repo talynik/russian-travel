@@ -1,26 +1,26 @@
 .lead__subtitle {
-  margin: 32px auto 56px auto;
-  max-width: 640px;
+  margin: 16px auto 40px auto;
+  max-width: 288px;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.875em;
+  font-size: 16px;
   line-height: 120%;
   text-align: center;
 }
 
+/* Основной код для разрешения 320px */
+@media screen and (min-width: 768px) {
+    /* стили для малого смартфона */
+  .lead__subtitle {
+    max-width: 640px;
+    margin: 32px auto 56px auto;
+    font-size: 30px;
+  }
+}
 
-/* Основной код для разрешения 1024px */
 @media screen and (min-width: 1280px) {
     /* стили для больших настольных компьютеров и ноутбуков */
   .lead__subtitle {
     margin: 32px auto 64px auto;
-  }
-}
-
-@media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
-  .lead__subtitle {
-    margin: 16px auto 40px auto;
-    font-size: 16px;
   }
 }

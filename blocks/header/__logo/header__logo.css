@@ -1,12 +1,10 @@
 .header__logo {
-  width: 176px;
-  margin: 28px 0px 0px 48px;
+  width: 142px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 768px) {
     /* стили для малого смартфона */
   .header__logo {
-    width: 142px;
-    margin: 16px 0px 0px 16px;
+    width: 176px;
   }
 }

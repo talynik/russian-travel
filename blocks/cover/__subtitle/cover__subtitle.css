@@ -1,20 +1,20 @@
 .cover__subtitle {
-  width: 360px;
+  width: 288px;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.125em;
+  font-size: 14px;
   line-height: 122%;
-  margin: 32px 0px 0px 0px;
+  margin: 16px 0px 0px 0px;
   text-align: center;
   z-index: 1;
 }
 
-/* Основной код для разрешения 1024px */
-@media screen and (max-width: 320px) {
+/* Основной код для разрешения 320px */
+@media screen and (min-width: 768px) {
     /* стили для малого смартфона */
   .cover__subtitle {
-    width: 288px;
-    font-size: 14px;
-    margin: 16px 0px 0px 0px;
+    width: 360px;
+    font-size: 18px;
+    margin: 32px 0px 0px 0px;
   } 
 }

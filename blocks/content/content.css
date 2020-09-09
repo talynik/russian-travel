@@ -3,33 +3,32 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  max-width: calc(1024px - 48px * 2);
+  max-width: calc(320px - 16px * 2);
   margin: 0px auto 0px auto;
-  padding: 0px 48px 0px 48px;
+  padding: 16px 16px 0px 16px;
   background: #2A2C2F;
 }
 
-/* Основной код для разрешения 1024px */
+/* Основной код для разрешения 320px */
+@media screen and (min-width: 768px) {
+    /* стили для планшета */
+  .content {
+    max-width: calc(768px - 24px * 2);
+    padding: 28px 24px 0px 24px;
+  }  
+}
+
+@media screen and (min-width: 1024px) {
+  .content {
+    max-width: calc(1024px - 48px * 2);
+    padding: 28px 48px 0px 48px;
+  } 
+}
+
 @media screen and (min-width: 1280px) {
     /* стили для больших настольных компьютеров и ноутбуков */
   .content {
     max-width: calc(1280px - 148px * 2);
-    padding: 0px 148px 0px 148px;
-  } 
-}
-
-@media screen and (max-width: 768px) {
-    /* стили для планшета */
-  .content {
-    max-width: calc(768px - 24px * 2);
-    padding: 0px 24px 0px 24px;
-  }  
-}
-
-@media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
-  .content {
-    max-width: calc(320px - 16px * 2);
-    padding: 0px 16px 0px 16px;
+    padding: 28px 148px 0px 148px;
   } 
 }

@@ -1,15 +1,16 @@
 .lead__title {
-  max-width: 720px;
+  max-width: 288px;
   font-style: normal;
   font-weight: 900;
-  font-size: 6em;
+  font-size: 40px;
   line-height: 104%;
   text-align: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 768px) {
     /* стили для малого смартфона */
   .lead__title {
-    font-size: 40px;
+    max-width: 720px;
+    font-size: 96px;
   }
 }

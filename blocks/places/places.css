@@ -2,13 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px auto 0px auto;
-  padding: 0px 0px 12px 0px;
+  margin: 0px 0px 16px 0px;
 }
 
-@media screen and (max-width: 768px) {
-    /* стили для планшета */
+/* Основной код для разрешения 320px */
+@media screen and (min-width: 1024px) {
   .places {
-    padding: 0px 0px 16px 0px;
+    margin: 0px 0px 12px 0px;
   }   
 }
