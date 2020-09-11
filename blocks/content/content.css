@@ -2,10 +2,8 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  align-items: center;
-  max-width: calc(320px - 16px * 2);
+  max-width: 320px;
   margin: 0px auto 0px auto;
-  padding: 16px 16px 0px 16px;
   background: #2A2C2F;
 }
 
@@ -13,22 +11,19 @@
 @media screen and (min-width: 768px) {
     /* стили для планшета */
   .content {
-    max-width: calc(768px - 24px * 2);
-    padding: 28px 24px 0px 24px;
+    max-width: 768px;
   }  
 }
 
 @media screen and (min-width: 1024px) {
   .content {
-    max-width: calc(1024px - 48px * 2);
-    padding: 28px 48px 0px 48px;
+    max-width: 1024px;
   } 
 }
 
 @media screen and (min-width: 1280px) {
     /* стили для больших настольных компьютеров и ноутбуков */
   .content {
-    max-width: calc(1280px - 148px * 2);
-    padding: 28px 148px 0px 148px;
+    max-width: 1280px;
   } 
 }

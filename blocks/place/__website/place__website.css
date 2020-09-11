@@ -1,4 +1,14 @@
 .place__website {
-  justify-self: start;
-  align-self: end;
+  display: none;
+}
+
+/* Основной код для разрешения 320px */
+@media screen and (min-width: 768px) {
+    /* стили для планшета */
+  .place__website {
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    align-self: end;
+  } 
 }

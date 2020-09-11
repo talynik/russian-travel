@@ -1,10 +1,10 @@
 .cover__subtitle {
-  width: 288px;
+  max-width: 288px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 122%;
-  margin: 16px 0px 0px 0px;
+  margin: 16px auto 0px auto;
   text-align: center;
   z-index: 1;
 }
@@ -13,8 +13,8 @@
 @media screen and (min-width: 768px) {
     /* стили для малого смартфона */
   .cover__subtitle {
-    width: 360px;
+    max-width: 360px;
     font-size: 18px;
-    margin: 32px 0px 0px 0px;
+    margin: 32px auto 0px auto;
   } 
 }

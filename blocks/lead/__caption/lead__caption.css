@@ -1,6 +1,6 @@
 .lead__caption {
   align-self: flex-start;
-  margin: 8px 0px 0px 16px;
+  padding: 8px 0px 0px 16px;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -12,19 +12,12 @@
 @media screen and (min-width: 768px) {
     /* стили для малого смартфона */
   .lead__caption {
-    margin: 8px 0px 0px 24px;
+    padding: 8px 0px 0px 24px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lead__caption {
-    margin: 8px 0px 0px 0px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-    /* стили для больших настольных компьютеров и ноутбуков */
-  .lead__caption {
-    margin: 8px 0px 0px 0px;
+    padding: 8px 0px 0px 0px;
   }
 }

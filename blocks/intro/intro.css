@@ -1,21 +1,19 @@
 .intro {
   flex-direction: column;
-  padding: 0px 0px 0px 16px;
-  max-width: 288px;
+  padding: 0px 16px 0px 16px;
 }
 
 /* Основной код для разрешения 320px */
 @media screen and (min-width: 768px) {
     /* стили для планшета */
   .intro {
-    padding: 0px 0px 0px 24px;
-    max-width: 720px;
+    padding: 0px 24px 0px 24px;
   }  
 }
 
 @media screen and (min-width: 1024px) {
   .intro {
-    padding: 0px 0px 0px 48px;
+    padding: 0px 48px 0px 48px;
     max-width: 690px;
   }  
 }
@@ -23,6 +21,6 @@
 @media screen and (min-width: 1280px) {
     /* стили для планшета */
   .intro {
-    padding: 0px 0px 0px 148px;
+    padding: 0px 148px 0px 148px;
   }  
 }

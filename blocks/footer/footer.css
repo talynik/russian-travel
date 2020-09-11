@@ -1,8 +1,7 @@
 .footer {
-  flex-direction: column;
   display: flex;
-  width: 100%;
-  padding: 97px 0px 24px 0px;
+  flex-direction: column;
+  padding: 97px 16px 24px 16px;
 }
 
 /* Основной код для разрешения 320px */
@@ -11,18 +10,18 @@
   .footer {
     flex-direction: row;
     justify-content: space-between;
-    padding: 203px 0px 24px 0px;
+    padding: 203px 24px 24px 24px;
   }  
 }
 
 @media screen and (min-width: 1024px) {
   .footer {
-    padding: 287px 0px 24px 0px;
+    padding: 287px 48px 24px 48px;
   } 
 }
 
 @media screen and (min-width: 1280px) {
   .footer {
-    padding: 337px 0px 24px 0px;
+    padding: 337px 48px 24px 48px;
   } 
 }
