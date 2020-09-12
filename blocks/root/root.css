@@ -1,7 +1,7 @@
 .root {
   margin: 0px auto 0px auto;
-  background: #E5E5E5;
-  font-family: Inter;
+  background: #2A2C2F;
+  font-family: Inter, 'Arial', sans-serif;
   color: #FFFFFF;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -9,26 +9,4 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-}
-
-h1, h2, p {
-  margin: 0px 0px 0px 0px;
-}
-
-ul {
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  list-style: none;
-}
-
-a {
-  font-style: normal;
-  font-weight: normal;
-  color: #FFFFFF;
-  text-decoration-line: none;
-  z-index: 1;
-}
-
-a:hover {
-  opacity: 0.2;
 }

@@ -1,7 +1,17 @@
 .header__lang-link {
+  font-style: normal;
+  font-weight: normal;
+  color: #FFFFFF;
+  text-decoration-line: none;
   margin: 0px 0px 0px 18px;
   font-size: 18px;
   line-height: 117%;
+}
+
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s;
 }
 
 @media screen and (min-width: 768px) {
