@@ -19,9 +19,9 @@
   opacity: 0.3;
 }
 
-.cover:hover {
-  opacity: 0.7;
-  transition: opacity 0.5s;
+.cover:hover::before {
+    opacity: 0.8;
+    transition: opacity 0.5s;
 }
 
 /* Основной код для разрешения 320px */
@@ -42,7 +42,7 @@
     /* стили для больших настольных компьютеров и ноутбуков */
   .cover {
     min-height: 740px;
-    padding: 0px 48px 0px 48px;
+    margin: 0px 48px 0px 48px;
   } 
 }
 
