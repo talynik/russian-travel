@@ -14,20 +14,20 @@
 /* Основной код для разрешения 320px */
 @media screen and (min-width: 768px) {
     /* стили для планшета */
-  .cover__content {
+  .cover {
     min-height: 480px;
   }  
 }
 
 @media screen and (min-width: 1024px) {
-  .cover__content {
+  .cover {
     min-height: 640px;
   } 
 }
 
 @media screen and (min-width: 1280px) {
     /* стили для больших настольных компьютеров и ноутбуков */
-  .cover__content {
+  .cover {
     min-height: 740px;
   } 
 }
