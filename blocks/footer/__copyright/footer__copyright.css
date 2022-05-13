@@ -7,9 +7,9 @@
   padding: 16px 0px 0px 0px;
 }
 
-/* Основной код для разрешения 320px */
+/* РћСЃРЅРѕРІРЅРѕР№ РєРѕРґ РґР»СЏ СЂР°Р·СЂРµС€РµРЅРёСЏ 320px */
 @media screen and (min-width: 768px) {
-    /* стили для планшета */
+    /* СЃС‚РёР»Рё РґР»СЏ РїР»Р°РЅС€РµС‚Р° */
   .footer__copyright {
     line-height: 16px;
     padding: 0px 0px 0px 0px;

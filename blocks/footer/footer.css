@@ -4,9 +4,9 @@
   padding: 64px 16px 24px 16px;
 }
 
-/* Основной код для разрешения 320px */
+/* РћСЃРЅРѕРІРЅРѕР№ РєРѕРґ РґР»СЏ СЂР°Р·СЂРµС€РµРЅРёСЏ 320px */
 @media screen and (min-width: 768px) {
-    /* стили для планшета */
+    /* СЃС‚РёР»Рё РґР»СЏ РїР»Р°РЅС€РµС‚Р° */
   .footer {
     flex-direction: row;
     justify-content: space-between;
@@ -14,7 +14,8 @@
   }  
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
+    /* СЃС‚РёР»Рё РґР»СЏ РїР»Р°РЅС€РµС‚Р° РІ Р°Р»СЊР±РѕРјРЅРѕР№ РѕСЂРёРµРЅС‚Р°С†РёРё */
   .footer {
     padding: 92px 48px 24px 48px;
   } 

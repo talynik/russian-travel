@@ -6,9 +6,9 @@
   margin: 0px 0px 0px 16px;
 }
 
-/* Основной код для разрешения 320px */
+/* РћСЃРЅРѕРІРЅРѕР№ РєРѕРґ РґР»СЏ СЂР°Р·СЂРµС€РµРЅРёСЏ 320px */
 @media screen and (min-width: 768px) {
-    /* стили для планшета */
+    /* СЃС‚РёР»Рё РґР»СЏ РїР»Р°РЅС€РµС‚Р° */
   .place__title {
     font-size: 42px;
     line-height: 110%;
@@ -16,7 +16,8 @@
   }  
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
+    /* СЃС‚РёР»Рё РґР»СЏ РїР»Р°РЅС€РµС‚Р° РІ Р°Р»СЊР±РѕРјРЅРѕР№ РѕСЂРёРµРЅС‚Р°С†РёРё */
   .place__title {
     font-size: 72px;
     line-height: 106%;

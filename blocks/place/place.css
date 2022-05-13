@@ -6,9 +6,9 @@
   padding: 0px 0px 48px 0px;
 }
 
-/* Основной код для разрешения 320px */
+/* РћСЃРЅРѕРІРЅРѕР№ РєРѕРґ РґР»СЏ СЂР°Р·СЂРµС€РµРЅРёСЏ 320px */
 @media screen and (min-width: 768px) {
-    /* стили для планшета */
+    /* СЃС‚РёР»Рё РґР»СЏ РїР»Р°РЅС€РµС‚Р° */
   .place {
     grid-template-columns: 340px 352px;
     grid-gap: 48px 28px;
@@ -16,7 +16,8 @@
   } 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
+    /* СЃС‚РёР»Рё РґР»СЏ РїР»Р°РЅС€РµС‚Р° РІ Р°Р»СЊР±РѕРјРЅРѕР№ РѕСЂРёРµРЅС‚Р°С†РёРё */
   .place {
     grid-template-columns: 440px 456px;
     grid-gap: 48px 32px;
@@ -25,7 +26,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    /* стили для больших настольных компьютеров и ноутбуков */
+    /* СЃС‚РёР»Рё РґР»СЏ Р±РѕР»СЊС€РёС… РЅР°СЃС‚РѕР»СЊРЅС‹С… РєРѕРјРїСЊСЋС‚РµСЂРѕРІ Рё РЅРѕСѓС‚Р±СѓРєРѕРІ */
   .place {
     grid-template-columns: 460px 484px;
     grid-gap: 48px 40px;
