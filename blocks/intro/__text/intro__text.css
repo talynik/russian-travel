@@ -1,7 +1,15 @@
 .intro__text {
-  margin: 40px 0px 32px 0px; 
+  margin: 32px 0px 32px 0px; 
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 170%;
+}
+
+@media screen and (min-width: 768px) {
+    /* стили для планшета */
+  .intro__text {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
