@@ -1,10 +1,10 @@
 .lead__subtitle {
-  margin: 16px auto 40px auto;
+  margin: 8px auto 32px auto;
   max-width: 288px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 120%;
+  line-height: 23px;
   text-align: center;
 }
 
@@ -13,14 +13,22 @@
     /* стили для планшета */
   .lead__subtitle {
     max-width: 640px;
-    margin: 32px auto 56px auto;
+    margin: 48px auto 78px auto;
     font-size: 30px;
+    line-height: 36px;
   }
 }
 
 @media screen and (min-width: 1280px) {
+    /* стили для настольных компьютеров и ноутбуков */
+  .lead__subtitle {
+    margin: 43px auto 65px auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
     /* стили для больших настольных компьютеров и ноутбуков */
   .lead__subtitle {
-    margin: 32px auto 64px auto;
+    margin: 48px auto 78px auto;
   }
 }

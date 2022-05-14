@@ -5,7 +5,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
-  line-height: 1.4;
+  line-height: 12px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
@@ -13,13 +13,6 @@
 @media screen and (min-width: 768px) {
     /* стили для планшета */
   .lead__caption {
-    padding: 8px 0px 0px 24px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-    /* стили для планшета в альбомной ориентации */
-  .lead__caption {
-    padding: 8px 0px 0px 0px;
+    padding: 16px 0px 0px 0px;
   }
 }

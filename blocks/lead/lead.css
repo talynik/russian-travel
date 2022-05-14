@@ -10,20 +10,27 @@
 @media screen and (min-width: 768px) {
     /* стили для планшета */
   .lead {
-    padding: 48px 0px 88px 0px;
+    padding: 48px 0px 80px 0px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     /* стили для планшета в альбомной ориентации */
   .lead {
-    padding: 48px 48px 92px 48px;
+    padding: 51px 48px 80px 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-    /* стили для больших настольных компьютеров и ноутбуков */
+    /* стили для настольных компьютеров и ноутбуков */
   .lead {
-    padding: 56px 148px 92px 148px;
+    padding: 48px 148px 80px 148px;
   }
+}
+
+@media screen and (min-width: 1440px) {
+  /* стили для больших настольных компьютеров и ноутбуков */
+.lead {
+  padding: 48px 228px 80px 228px;
+}
 }
