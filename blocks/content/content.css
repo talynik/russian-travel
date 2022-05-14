@@ -10,35 +10,35 @@
 /* Основной код для разрешения 320px */
 @media screen and (min-width: 375px) {
     /* стили для среднего смартфона */
-  .content {
+/*   .content {
     max-width: 375px;
-  }  
+  }   */
 }
 
 @media screen and (min-width: 768px) {
     /* стили для планшета */
-  .content {
+/*   .content {
     max-width: 768px;
-  }  
+  }   */
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     /* стили для планшета в альбомной ориентации */
-  .content {
+/*   .content {
     max-width: 1024px;
-  } 
+  }  */
 }
 
 @media screen and (min-width: 1280px) {
     /* стили для настольных компьютеров и ноутбуков */
-  .content {
+/*   .content {
     max-width: 1280px;
-  } 
+  }  */
 }
 
 @media screen and (min-width: 1440px) {
     /* стили для больших настольных компьютеров и ноутбуков */
-  .content {
+/*   .content {
     max-width: 1440px;
-  } 
+  }  */
 }
