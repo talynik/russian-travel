@@ -2,8 +2,8 @@
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
-  line-height: 109%;
-  margin: 0px 0px 0px 16px;
+  line-height: 35px;
+  margin: 0px 0px 0px 0px;
 }
 
 /* Основной код для разрешения 320px */
@@ -11,15 +11,14 @@
     /* стили для планшета */
   .place__title {
     font-size: 42px;
-    line-height: 110%;
-    margin: 0px 0px 0px 0px;
+    line-height: 46px;
   }  
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     /* стили для планшета в альбомной ориентации */
   .place__title {
     font-size: 72px;
-    line-height: 106%;
+    line-height: 65px;
   } 
 }
