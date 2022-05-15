@@ -38,6 +38,17 @@
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__title/video__title.css);
+@import url(../blocks/video/__subtitle/video__subtitle.css);
+@import url(../blocks/video/__container/video__container.css);
+@import url(../blocks/video/__item/video__item.css);
+@import url(../blocks/video/__item/_play/video__item_play.css);
+@import url(../blocks/video/__item/_description/video__item_description.css);
+@import url(../blocks/video/__item/_duration/video__item_duration.css);
+@import url(../blocks/video/__item/_title/video__item_title.css);
+@import url(../blocks/video/__item/_subtitle/video__item_subtitle.css);
+
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__content/cover__content.css);
 @import url(../blocks/cover/__title/cover__title.css);

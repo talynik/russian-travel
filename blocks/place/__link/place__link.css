@@ -1,9 +1,9 @@
 .place__link {
-font-style: normal;
+  font-style: normal;
   font-weight: normal;
   color: #FFFFFF;
   font-size: 18px;
-  line-height: 122%;
+  line-height: 30px;
   text-decoration-line: underline;
 }
 

@@ -6,7 +6,7 @@
 }
 
 /* Основной код для разрешения 320px */
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     /* стили для планшета в альбомной ориентации */
   .places {
     padding: 0px 0px 12px 0px;

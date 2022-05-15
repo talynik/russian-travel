@@ -1,0 +1,34 @@
+.video__subtitle {
+  margin: 8px auto 32px auto;
+  max-width: 288px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+}
+
+/* Основной код для разрешения 320px */
+@media screen and (min-width: 768px) {
+    /* стили для планшета */
+  .video__subtitle {
+    max-width: 640px;
+    margin: 48px auto 78px auto;
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+    /* стили для настольных компьютеров и ноутбуков */
+  .video__subtitle {
+    margin: 43px auto 65px auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    /* стили для больших настольных компьютеров и ноутбуков */
+  .video__subtitle {
+    margin: 48px auto 78px auto;
+  }
+}

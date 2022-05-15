@@ -1,0 +1,18 @@
+.video__title {
+  margin: 0px 0px 0px 0px;
+  max-width: 288px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    /* стили для планшета */
+  .video__title {
+    max-width: 720px;
+    font-size: 96px;
+    line-height: 93px;
+  }
+}
