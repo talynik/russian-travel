@@ -1,0 +1,6 @@
+.video__item_play {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  max-width: 41px;
+}

@@ -1,5 +1,26 @@
 .video__container {
-  margin: 0px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  justify-content: center;
   padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   list-style: none;
+}
+
+/* Основной код для разрешения 320px */
+@media screen and (min-width: 768px) {
+    /* стили для планшета */
+  .video__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    /* padding: 0px 0px 102px 0px; */
+  } 
+}
+
+@media screen and (min-width: 1280px) {
+    /* стили для настольных компьютеров и ноутбуков */
+  .video__container {
+    gap: 18px;
+  } 
 }

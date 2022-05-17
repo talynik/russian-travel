@@ -1,6 +1,6 @@
 .video__subtitle {
-  margin: 8px auto 32px auto;
-  max-width: 288px;
+  margin: 16px auto 24px auto;
+  max-width: 343px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -13,22 +13,15 @@
     /* стили для планшета */
   .video__subtitle {
     max-width: 640px;
-    margin: 48px auto 78px auto;
-    font-size: 30px;
-    line-height: 36px;
+    margin: 31px auto 56px auto;
+    font-size: 24px;
+    line-height: 35px;
   }
 }
 
 @media screen and (min-width: 1280px) {
     /* стили для настольных компьютеров и ноутбуков */
   .video__subtitle {
-    margin: 43px auto 65px auto;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-    /* стили для больших настольных компьютеров и ноутбуков */
-  .video__subtitle {
-    margin: 48px auto 78px auto;
+    margin: 48px auto 72px auto;
   }
 }
