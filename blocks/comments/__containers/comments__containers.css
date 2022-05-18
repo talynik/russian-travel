@@ -1,0 +1,20 @@
+.comments__containers {
+  display: grid;
+  max-width: 382px;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  /* justify-content: center; */
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  list-style: none;
+}
+
+/* Основной код для разрешения 320px */
+@media screen and (min-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+  .comments__containers {
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 19px;
+  } 
+}

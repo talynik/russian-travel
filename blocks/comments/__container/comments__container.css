@@ -1,0 +1,10 @@
+.comments__container {
+  display: grid;
+  grid-template-areas:
+    "row_1"
+    "row_2"
+    "row_3";
+  grid-template-rows: auto auto auto;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px; 
+}

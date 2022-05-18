@@ -1,0 +1,14 @@
+.comments__container_image {
+  justify-self: center;
+  border-radius: 50%;
+  max-width: 96px;
+  grid-area: row_1;
+}
+
+/* Основной код для разрешения 320px */
+@media screen and (min-width: 1024px) {
+    /* стили для планшета в альбомной ориентации */
+  .comments__container_image {
+    justify-self: left;
+  } 
+}

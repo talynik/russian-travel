@@ -1,0 +1,26 @@
+.comments__container_quote {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  margin: 0px 0px 0px 0px;
+  grid-area: row_3;
+}
+
+/* Основной код для разрешения 320px */
+@media screen and (min-width: 1024px) {
+    /* стили для настольных компьютеров и ноутбуков */
+  .comments__container_quote {
+    grid-area: row_2;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 40px 0px 16px 0px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+    /* стили для настольных компьютеров и ноутбуков */
+  .comments__container_quote {
+    margin: 42px 0px 24px 0px;
+  }
+}

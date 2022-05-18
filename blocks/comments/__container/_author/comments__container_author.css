@@ -1,0 +1,17 @@
+.comments__container_author {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  margin: 17px auto 24px auto;
+  grid-area: row_2;
+}
+
+/* Основной код для разрешения 320px */
+@media screen and (min-width: 1024px) {
+    /* стили для настольных компьютеров и ноутбуков */
+  .comments__container_author {
+    grid-area: row_3;
+  }
+}
